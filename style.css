@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Digital7', monospace;
+}
+
+@font-face {
+    font-family: 'Digital7';
+    src: url('digital-7.ttf');
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1B2A4A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: auto;
+}
+
+.scoreboard h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 4px;
+}
+
+
+.score-card1, .score-card2 {
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    margin: 0;
+    border-radius: 5px;
+    padding: 10px;
+    color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+}
+
+.increase-score {
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 4px;
+    background: transparent;
+    color: whitesmoke;
+    border: 1px solid white;
+}
+
+#winner-status {
+    color: #FFD700;
+    font-size: 1.8em;
+    margin-top: 10px;
+    letter-spacing: 4px;
+    min-height: 2em;
+}

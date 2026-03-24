@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/basketball-favicon.png" type="image/x-icon">
+    <title>Basketball Scoreboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="scoreboard">
+            <h3>HOME</h3>
+            <div class="score-card1">
+                <p id="home-score">0</p>
+            </div>
+            <button onclick="homeIncrease_1()" class="increase-score">+1</button>
+            <button onclick="homeIncrease_2()" class="increase-score">+2</button>
+            <button onclick="homeIncrease_3()" class="increase-score">+3</button>
+        </div>
+        <div class="scoreboard">
+            <h3>GUEST</h3>
+            <div class="score-card2">
+                <p id="guest-score">0</p>
+            </div>
+            <button onclick="guestIncrease_1()" class="increase-score">+1</button>
+            <button onclick="guestIncrease_2()" class="increase-score">+2</button>
+            <button onclick="guestIncrease_3()" class="increase-score">+3</button>
+        </div>
+    </div>
+    <p id="winner-status"></p>
+    <script src="index.js"></script>
+</body>
+
+</html>
