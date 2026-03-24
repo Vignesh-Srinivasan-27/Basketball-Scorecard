@@ -2,7 +2,7 @@
 
 A vanilla JavaScript scoreboard to track HOME and GUEST scores in a basketball game.
 
-**Live Demo** → [Click here](#) *(add your Netlify link)*
+**Live Demo** → [https://basketballscoreboardjsproject.netlify.app/]
 
 ---
 
